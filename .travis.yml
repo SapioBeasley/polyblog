@@ -1,8 +1,11 @@
 language: php
+sudo: false
 php:
-- 5.5
+  - 5.5
 
 before_script:
-  - composer install
+  - curl -sS https://gist.githubusercontent.com/mojopollo/4cfdc1cc3e0071daf375/raw | sh
+  - composer install --dev
   - wget "https://gist.githubusercontent.com/mojopollo/6c1f47ff1f8ec2c796fc/raw" -O.env
+
 script: phpunit --debug
