@@ -5,6 +5,7 @@ php:
 
 before_script:
   - curl -sS https://gist.githubusercontent.com/mojopollo/4cfdc1cc3e0071daf375/raw | sh
+  - composer self-update
   - composer install --dev
   - wget "https://gist.githubusercontent.com/mojopollo/6c1f47ff1f8ec2c796fc/raw" -O.env
   - cat .env
