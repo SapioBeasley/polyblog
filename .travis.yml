@@ -4,4 +4,5 @@ php:
 
 before_script:
   - composer install
+  - wget "https://gist.githubusercontent.com/mojopollo/6c1f47ff1f8ec2c796fc/raw" -O.env
 script: phpunit --debug
