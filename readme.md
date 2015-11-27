@@ -1,5 +1,7 @@
 # polyblog
 
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/SapioBeasley/polyblog.svg?branch=master)
+
 <a href="#about"></a>
 ## About
 ===================
