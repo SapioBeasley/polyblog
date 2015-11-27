@@ -4,10 +4,18 @@
 
 <a href="#about"></a>
 ## About
+<<<<<<< HEAD
+
+=======
 ===================
+>>>>>>> devel
 Blog built with Polymer and designed with Material Design
 
 <a href="#install"></a>
 ## Installation
+<<<<<<< HEAD
+
+=======
 ===================
+>>>>>>> devel
 `git clone git@github.com:SapioBeasley/polyblog.git && cd polyblog`
