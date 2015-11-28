@@ -1,6 +1,6 @@
 # polyblog
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/SapioBeasley/polyblog.svg?branch=master)
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/SapioBeasley/polyblog.svg?branch=devel)
 
 <a href="#about"></a>
 ## About
