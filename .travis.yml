@@ -4,9 +4,9 @@ php:
   - 5.5
 
 before_script:
-  - wget "https://gist.githubusercontent.com/mojopollo/6c1f47ff1f8ec2c796fc/raw" -O.env
   - composer self-update
   - composer install --dev
   - php artisan key:generate
+  - wget "https://gist.githubusercontent.com/mojopollo/6c1f47ff1f8ec2c796fc/raw" -O.env
 
-script: phpunit --debug
+script: vendor/bin/phpunit --debug
