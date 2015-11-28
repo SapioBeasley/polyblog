@@ -20,7 +20,7 @@
         </whitelist>
     </filter>
     <php>
-        <env name="APP_ENV" value="fd5561516d88e02cb7a26c53fb2d5428526c1878"/>
+        <env name="APP_ENV" value="testing"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="QUEUE_DRIVER" value="sync"/>
