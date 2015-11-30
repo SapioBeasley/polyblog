@@ -11,3 +11,12 @@ Blog built with Polymer and designed with Material Design
 ## Installation
 
 `git clone git@github.com:SapioBeasley/polyblog.git && cd polyblog`
+
+<a href="#Polymer"></a>
+# What is Polymer
+
+<a href="#install-polymer"></a>
+## Installing polymer
+
+<a href="#use-polymer"></a>
+## Using polymer

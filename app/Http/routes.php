@@ -11,6 +11,6 @@
 |
 */
 
-Route::resource('/', 'HomesController');
-Route::resource('categories', 'Categories');
+Route::resource('/', 'HomesController', ['only' => 'index']);
+Route::resource('categories', 'CategoriesController');
 Route::resource('posts', 'PostsController');
