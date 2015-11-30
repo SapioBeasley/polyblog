@@ -1,45 +1,72 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layouts.default')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('content')
+	<section>
+	<iron-grid>
+		<div class=" s12 m6 l4">
+			<paper-card heading="Titles AND images!" class="card" image="http://placehold.it/350x150">
+				<div class="card-content">
+					Lorem ipsum dolor sit amet, nec ad conceptam interpretaris, mea ne solet repudiandae. Laudem nostrud ei vim. Sapientem consequuntur usu ad, vel etiam philosophia ex, ad quidam option quo. Sed sale integre pericula ei, rebum adipiscing ius ea.
+					<paper-icon-button icon="more-vert"></paper-icon-button>
+				</div>
+				<div class="card-actions">
+					<paper-button>No</paper-button>
+					<paper-button>Yes</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+		<div class=" s12 m6 l4">
+			<paper-card heading="Titles AND images!" class="card" image="http://placehold.it/350x150">
+				<div class="card-content">
+					Lorem ipsum dolor sit amet, nec ad conceptam interpretaris, mea ne solet repudiandae. Laudem nostrud ei vim. Sapientem consequuntur usu ad, vel etiam philosophia ex, ad quidam option quo. Sed sale integre pericula ei, rebum adipiscing ius ea.
+					<paper-icon-button icon="more-vert"></paper-icon-button>
+				</div>
+				<div class="card-actions">
+					<paper-button>No</paper-button>
+					<paper-button>Yes</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+		<div class=" s12 m6 l4">
+			<paper-card heading="Titles AND images!" class="card" image="http://placehold.it/350x150">
+				<div class="card-content">
+					Lorem ipsum dolor sit amet, nec ad conceptam interpretaris, mea ne solet repudiandae. Laudem nostrud ei vim. Sapientem consequuntur usu ad, vel etiam philosophia ex, ad quidam option quo. Sed sale integre pericula ei, rebum adipiscing ius ea.
+					<paper-icon-button icon="more-vert"></paper-icon-button>
+				</div>
+				<div class="card-actions">
+					<paper-button>No</paper-button>
+					<paper-button>Yes</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+		<div class=" s12 m6 l4">
+			<paper-card heading="Titles AND images!" class="card" image="http://placehold.it/350x150">
+				<div class="card-content">
+					Lorem ipsum dolor sit amet, nec ad conceptam interpretaris, mea ne solet repudiandae. Laudem nostrud ei vim. Sapientem consequuntur usu ad, vel etiam philosophia ex, ad quidam option quo. Sed sale integre pericula ei, rebum adipiscing ius ea.
+					<paper-icon-button icon="more-vert"></paper-icon-button>
+				</div>
+				<div class="card-actions">
+					<paper-button>No</paper-button>
+					<paper-button>Yes</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-    </body>
-</html>
+		<div class=" s12 m6 l4">
+			<paper-card heading="Titles AND images!" class="card" image="http://placehold.it/350x150">
+				<div class="card-content">
+					Lorem ipsum dolor sit amet, nec ad conceptam interpretaris, mea ne solet repudiandae. Laudem nostrud ei vim. Sapientem consequuntur usu ad, vel etiam philosophia ex, ad quidam option quo. Sed sale integre pericula ei, rebum adipiscing ius ea.
+					<paper-icon-button icon="more-vert"></paper-icon-button>
+				</div>
+				<div class="card-actions">
+					<paper-button>No</paper-button>
+					<paper-button>Yes</paper-button>
+				</div>
+			</paper-card>
+		</div>
+	</iron-grid>
+	</section>
+@endsection
