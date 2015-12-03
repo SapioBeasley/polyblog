@@ -1,45 +1,62 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layouts.default')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('content')
+	<section>
+	<iron-grid>
+		<div class="s12 m6 l4">
+			<paper-card class="card" image="https://unsplash.it/400/400/?random=1">
+				<div class="card-content">
+					<div class="big">Usu eu novum principes</div>
+					<div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+					{{-- <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div> --}}
+					<paper-button class="s12 m12 l12">DETAILS</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+		<div class="s12 m6 l4">
+			<paper-card class="card" image="https://unsplash.it/400/400/?random=2">
+				<div class="card-content">
+					<div class="big">Usu eu novum principes</div>
+					<div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+					{{-- <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div> --}}
+					<paper-button class="s12 m12 l12">DETAILS</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+		<div class="s12 m6 l4">
+			<paper-card class="card" image="https://unsplash.it/400/400/?random=3">
+				<div class="card-content">
+					<div class="big">Usu eu novum principes</div>
+					<div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+					{{-- <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div> --}}
+					<paper-button class="s12 m12 l12">DETAILS</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+		<div class="s12 m6 l4">
+			<paper-card class="card" image="https://unsplash.it/400/400/?random=4">
+				<div class="card-content">
+					<div class="big">Usu eu novum principes</div>
+					<div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+					{{-- <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div> --}}
+					<paper-button class="s12 m12 l12">DETAILS</paper-button>
+				</div>
+			</paper-card>
+		</div>
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-    </body>
-</html>
+		<div class="s12 m6 l4">
+			<paper-card class="card" image="https://unsplash.it/400/400/?random=5">
+				<div class="card-content">
+					<div class="big">Usu eu novum principes</div>
+					<div class="medium">Ut labores minimum atomorum pro. Laudem tibique ut has.</div>
+					{{-- <div class="small">Usu eu novum principes, vel quodsi aliquip ea.</div> --}}
+					<paper-button class="s12 m12 l12">DETAILS</paper-button>
+				</div>
+			</paper-card>
+		</div>
+	</iron-grid>
+	</section>
+@endsection
