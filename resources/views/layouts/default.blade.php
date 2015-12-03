@@ -14,11 +14,15 @@
 
        <style is="custom-style">
         paper-toolbar {
-            --paper-toolbar-background: #e9e9e9;
-            --paper-toolbar-color: #212121;
+            --paper-toolbar-background: #2c3e50;
+            --paper-toolbar-color: #fafafa;
 /*            --paper-toolbar: {
                 font-size: 40px;
             };*/
+        }
+
+        paper-fab {
+            --paper-fab-background:#c0392b;
         }
        </style>
 
@@ -32,18 +36,20 @@
                 <div class="nav-div"> <a href="{{route('categories.index')}}"><paper-icon-button icon="chevron-left"></paper-icon-button>All Categories</a></div>
             </paper-header-panel>
 
-            <paper-header-panel mode="waterfall" main>
+            <paper-header-panel tall-class="medium-tall" mode="waterfall-tall" main>
 
                 <paper-toolbar class="main-toolbar">
                     <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
                     <span class="title">PolyBlog</span>
                     <paper-icon-button icon="refresh"></paper-icon-button>
-                    <paper-icon-button icon="add">+</paper-icon-button>
+                    <paper-icon-button icon="filter-list"></paper-icon-button>
                 </paper-toolbar>
 
                 <div class="layout horizontal center-justified">
                     @yield('content')
                 </div>
+
+                <paper-fab icon="shopping-cart"></paper-fab>
 
                 <footer class="flex">&copy; PolyBlog.com | Powered by Sapioweb.com</footer>
 
