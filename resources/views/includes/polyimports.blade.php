@@ -10,3 +10,4 @@
 <link rel="import" href="{{asset('bower_components/paper-material/paper-material.html')}}">
 <link rel="import" href="{{asset('bower_components/paper-button/paper-button.html')}}">
 <link rel="import" href="{{asset('bower_components/iron-grid/iron-grid.html')}}">
+<link rel="import" href="{{asset('bower_components/paper-fab/paper-fab.html')}}">
